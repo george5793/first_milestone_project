@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Permanent+Marker:100,200,300,400,500,600,700');
+
+/*----------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/monkees-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 192px;
+    min-width: 262px;
+    margin-bottom: 20px;
+}
+
+#nav {
+    background-color: #fafafa;
+}
+
+#nav li {
+    padding: 0;
+    display: inline;
+}
+
+.menuitem {
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.menuitem span {
+    display: block;
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.menuitem a i {
+    display: block;
+    padding-top: 15px;
+    width: 100%;
+}
+
+/*----------------------------------------Headers*/
+
+.section-header {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #ff0000;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #ff0000;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/*----------------------------------------Colors*/
+
+.bg-grey {
+    background: #fafafa;
+}
+
+/*----------------------------------------Hover.css*/
+
+.hvr-underline-from-center:before {
+    background: #ff0000;
+}
+
+/*----------------------------------------Home*/
+
+.next-gig {
+    background: url("../images/millenium-dome.jpg") no-repeat center center fixed;
+    min-height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.gig-location {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+    font-family: "Permanent Marker", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 250px;
+    letter-spacing: 2px;
+}
+
+.tickets-btn {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #ff0000;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*----------------------------------------News*/
+
+.news {
+    background-color: #fafafa;
+}
+
+.news-picture {
+    background: url("../images/monkees-news.jpg") center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.news-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.news-text h2 {
+    font-family: "Permanent Marker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/*----------------------------------------Popular*/
+
+.popular {
+    
+}
+
+.popular-album-cover {
+    background: url("../images/album2.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+/*----------------------------------------Band*/
+
+.band-cover {
+    background: url("../images/band-cover.jpg") no-repeat center center;
+    min-height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.band-member {
+    margin-bottom: 30px;
+}
+
+.peter {
+    background: url("../images/pt.jpg") no-repeat center;
+    height: 196px;
+    margin-top: 20px;
+}
+
+.micky {
+    background: url("../images/md.jpg") no-repeat center;
+    height: 183px;
+    margin-top: 20px;
+}
+
+.mike {
+    background: url("../images/mn.jpg") no-repeat center;
+    height: 197px;
+    margin-top: 20px;
+}
+
+.davy {
+    background: url("../images/dj.jpg") no-repeat center;
+    height: 197px;
+    margin-top: 20px;
+}
+
+.band-member-description h2 {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.band-member-description h4 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #ff0000;
+    padding-bottom: 3px;
+}
+
+/*----------------------------------------Tours*/
+
+.location {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.gig-icon {
+    font-size: 27px;
+    text-align: center;
+    padding: 0;
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.gig-date {
+    padding-left: 2em;
+    position: relative;
+    border-color: #ff0000;
+    border-left: 1px solid;
+}
+
+.gig-date::before {
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.gig-date::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #ff0000;
+}
+
+.buy-tickets {
+    color: #ff0000;
+}
+
+/*----------------------------------------Bookings*/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #ff0000;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn-danger:hover {
+    color: #ff0000;
+    background-color: #ffffff;
+    border-color: #ff0000;
+}
+
+.center-form label {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.center-form input {
+    margin-bottom: 10px;
+}
+
+/*----------------------------------------Footer*/
+
+footer {
+    background-color: #fafafa;
+}
+
+.copyright-logo {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.copyright-description {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    width: 30%;
+    margin: 20px auto 20px auto;
+}
+
+.social-links {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: #ffffff;
+    background: #ff0000;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
