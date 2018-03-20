@@ -156,21 +156,33 @@ header {
 /*----------------------------------------Popular*/
 
 .popular {
-    
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .popular-album-cover {
     background: url("../images/album2.jpg");
-    height: 400px;
+    min-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
 }
 
+.song-title {
+    font-family: "Permanent Marker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.song-play {}
+
 /*----------------------------------------Band*/
 
 .band-cover {
-    background: url("../images/band-cover.jpg") no-repeat center center;
+    background: url("../images/band-cover.jpg") no-repeat center center fixed;
     min-height: 500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -223,6 +235,32 @@ header {
     padding-bottom: 3px;
 }
 
+/*----------------------------------------Music*/
+
+#clarksville {
+    background: url("../images/clarksville-album-cover.jpg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#imabeliever {
+    background: url("../images/im-a-believer-album-cover.jpg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#steppingstone {
+    background: url("../images/stepping-stone-album-cover.jpg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
 /*----------------------------------------Tours*/
 
 .location {
@@ -231,6 +269,9 @@ header {
     text-align: center;
     letter-spacing: 2px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gig-icon {
@@ -346,4 +387,16 @@ footer {
     text-align: center;
     padding-top: 5px;
     margin-bottom: 10px;
+}
+
+
+/*----------------------------------------Media Queries*/
+
+@media only screen and (max-width: 768px) {
+
+    .popular {
+        margin-bottom: 20px;
+        display: block;
+    }
+
 }
