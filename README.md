@@ -2,7 +2,7 @@
 
 #### (Code Institute First Milestone Project)
 
-![alt text](https://drive.google.com/open?id=19P8ouS-rdjnKTdA9b3iIMpNcu6Yer_go "Bookings Page")
+![book](https://user-images.githubusercontent.com/29693882/37696745-9dfa5a8a-2cd0-11e8-9955-c5997d09ca35.png)
 
 ### Overview
 A website for The Monkees, a 60's band that still tours to this day. Visitors can traverse through the website via the navigation bar at the top to find out more about the band, listen to the band and even book the band. They will be presented with the following features:
